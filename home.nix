@@ -301,7 +301,7 @@ in
         height = 30;
         modules-left = [ "hyprland/workspaces" ];
         modules-center = [ "clock" ];
-        modules-right = [ "pulseaudio" "custom/power" ]; # This reference is correct
+        modules-right = [ "network" "battery" "pulseaudio" "custom/power" ]; # This reference is correct
 
         "hyprland/workspaces" = {
           format = "{icon}";
